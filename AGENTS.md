@@ -49,3 +49,9 @@ When a new design pattern is added to the repository, it generally follows these
 - **Write the Code**: Implement the pattern logic under `src/main/java/com/iluwatar/mynewpattern`, usually including an `App.java` class to demonstrate its usage.
 - **Write the Tests**: Add comprehensive unit tests under `src/test/java/com/iluwatar/mynewpattern`.
 - **Document**: Create a `README.md` at the root of the new module, structured with standard sections like Intent, Explanation, Class diagram, Applicability, and Real world examples.
+
+## Vietnamese translation
+
+- For translation work, follow `TRANSLATION_RULES.md`.
+- Keep upstream English documentation and Java code unchanged; place only the assigned Vietnamese Markdown files under the matching path in `translations/vi/`.
+- Use one focused source-to-translation review pass. Fix only concrete rule violations; do not add repeated QA or style-preference review rounds.
